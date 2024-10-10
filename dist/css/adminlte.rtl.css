@@ -15349,4 +15349,38 @@ html.maximized-card {
 .img-size-32 {
   width: 32px;
 }
+
+/* stylelint-disable */
+aside.app-sidebar .sidebar-brand {
+  background-color: #102E5B important;
+  border: none;
+}
+aside.app-sidebar .sidebar-wrapper {
+  background-color: #102E5B;
+}
+aside.app-sidebar .sidebar-wrapper div[data-overlayscrollbars-viewport=scrollbarHidden] {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+}
+aside.app-sidebar .sidebar-wrapper div[data-overlayscrollbars-viewport=scrollbarHidden] .sidebar-menu a.nav-link {
+  border-radius: 0;
+}
+aside.app-sidebar .sidebar-wrapper div[data-overlayscrollbars-viewport=scrollbarHidden] .sidebar-menu a.nav-link.active, aside.app-sidebar .sidebar-wrapper div[data-overlayscrollbars-viewport=scrollbarHidden] .sidebar-menu a.nav-link:focus {
+  background-color: #0F2442 !important;
+}
+
+.app-header {
+  background-color: #001719 !important;
+  border-bottom: none;
+}
+.app-header ul.navbar-nav li:nth-child(n+2) {
+  display: none !important;
+}
+.app-header ul.navbar-nav li.nav-item i.bi-list {
+  color: #FFFFFF;
+}
+
+/* stylelint-enable */
+
 /*# sourceMappingURL=adminlte.rtl.css.map */

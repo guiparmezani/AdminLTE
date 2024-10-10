@@ -1,0 +1,51 @@
+/* stylelint-disable */
+$brand-navy: #0F2442;
+$brand-blue: #102E5B;
+$brand-white: #FFFFFF;
+$brand-black: #001719;
+
+aside.app-sidebar{
+  .sidebar-brand {
+    background-color: $brand-blue important;
+    border: none;
+  }
+  .sidebar-wrapper {
+    background-color: $brand-blue;
+    div[data-overlayscrollbars-viewport="scrollbarHidden"] {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      padding-top: 0 !important;
+      .sidebar-menu {
+        .nav-item.menu-open {
+          a.nav-link {
+            //background-color: $brand-navy !important;
+          }
+        }
+        a.nav-link {
+          border-radius: 0;
+          &.active,
+          &:focus{
+            background-color:$brand-navy!important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.app-header {
+  background-color:$brand-black!important;
+  border-bottom:none;
+  ul.navbar-nav {
+    li:nth-child(n+2){
+      display: none !important;
+    }
+    li.nav-item {
+      i.bi-list {
+        color:$brand-white;
+      }
+    }
+  }
+}
+
+/* stylelint-enable */
